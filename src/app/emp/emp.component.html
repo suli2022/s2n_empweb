@@ -1,0 +1,18 @@
+<p>emp works!</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Az</th>
+            <th>Név</th>
+            <th>Település</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emp of employees">
+            <td>{{emp.id}}</td>
+            <td>{{emp.name}}</td>
+            <td>{{emp.city}}</td>
+        </tr>
+    </tbody>
+</table>
